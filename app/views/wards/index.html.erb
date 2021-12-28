@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th> Ward No </th>
+    <th> Ward Type </th>
+  </tr>
+  <% @wards.each do |ward| %>
+  <tr>
+    
+  <td><%= ward.id %></td>
+  <td><%= ward.w_type %></td>
+  </tr>
+  <% end %>
+</table>

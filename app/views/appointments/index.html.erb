@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th>Appointment Id</th>
+    <th>Name</th>
+    <th>Contact</th>
+    <th>Appointmnet Date</th>
+    <!-- <th>Doctor</th> -->
+  </tr>
+  <% @appointments.each do |appoint| %>
+  <tr>
+    
+  <td><%= appoint.id %></td>
+  <td><%= appoint.name %></td>
+  <td><%= appoint.phone %></td>
+  <td><%= appoint.date %></td>
+  <!-- <td><%= appoint.doctor_id %></td> -->
+  </tr>
+  <% end %>
+</table>
