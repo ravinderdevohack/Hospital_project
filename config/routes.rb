@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :nurses
   resources :patients
   resources :wards
   root 'hospital#index'

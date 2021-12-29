@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  shift_start: 2021-12-29 12:53:32
+  shift_end: 2021-12-29 12:53:32
+  ward: one
+
+two:
+  name: MyString
+  shift_start: 2021-12-29 12:53:32
+  shift_end: 2021-12-29 12:53:32
+  ward: two

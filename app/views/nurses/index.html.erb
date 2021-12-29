@@ -1,0 +1,19 @@
+<table>
+  <tr>
+    <th>Nurse Id</th>
+    <th>Name</th>
+    <th>Shift Start At</th>
+    <th>Shift End At</th>
+    <th>Ward Id</th>
+  </tr>
+  <% @nurses.each do |n| %>
+  <tr>
+    
+  <td><%= n.id %></td>
+  <td><%= n.name %></td>
+  <td><%= n.shift_start %></td>
+  <td><%= n.shift_end %></td>
+  <td><%= n.ward_id %></td>
+  </tr>
+  <% end %>
+</table>

@@ -1,0 +1,45 @@
+<table>
+  <tr>
+    <th>
+      Patient Name
+    </th>
+    <th>
+      Contact
+    </th>    
+    <th>
+      Gender
+    </th>    
+    <th>
+      Age
+    </th>    
+    <th>
+      Admit_Date
+    </th>    
+    <th>
+      Disease
+    </th>
+    <th>
+      Doctor
+    </th>    
+    <th>
+      ward
+    </th>
+  </tr>
+  <% @patients.each do |p| %>
+ 
+    <tr>
+      <td><%= p.name %></td>
+      <td><%= p.phone %></td>
+      <td><%= p.gender %></td>
+      <td><%= p.age %></td>
+      <td><%= p.admit_date %></td>
+      <td><%= p.disease %></td>
+      <td><%= p.doctor_id %></td>
+      <td><%= p.ward_id %></td>
+
+    </tr>
+
+
+
+  <% end %>
+</table>
